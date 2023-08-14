@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes typingDotAnim {
+  0% {
+    opacity: 1;
+    background-image: radial-gradient(
+      circle at center,
+      var(--joy-palette-neutral-500) 4px,
+      transparent 0%
+    );
+  }
+  50% {
+    opacity: 0.5;
+    background-image: radial-gradient(
+      circle at center,
+      var(--joy-palette-neutral-500) 3px,
+      transparent 0%
+    );
+  }
+  100% {
+    opacity: 1;
+    background-image: radial-gradient(
+      circle at center,
+      var(--joy-palette-neutral-500) 4px,
+      transparent 0%
+    );
+  }
+}
