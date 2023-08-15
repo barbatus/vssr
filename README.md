@@ -22,7 +22,7 @@ Server Components are beneficial and can significantly improve vital rendering m
 
 Here we go, [@tanstack/bling](https://github.com/TanStack/bling) powered by Vite transpilation. It enables writing server code within a client hook or even integrating it into a client component, which is then extracted automatically into a separate server API endpoint.
 
-It's worth comparing this approach with tRPC, as the main benefit of both approaches is nearly the same – rapid bootstrapping with first-class TypeScript support shared across the client and server.
+It's worth comparing this approach with tRPC, as the main benefit of both approaches is nearly the same – rapid API bootstrapping with first-class TypeScript support shared across the client and server.
 The advantage here is that it requires much less boilerplate and setup compared to tRPC,
 while the disadvantage is that tRPC is currently more mature.
 
