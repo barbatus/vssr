@@ -20,7 +20,7 @@ npm run serve
 Server-side rendering has become increasingly popular in the React world, especially with the introduction of Server Components in React.
 While Server Components are beneficial and can significantly improve vital rendering metrics, while allowing to access purely server-side code, such as accessing a database, within components. JavaScript can run on both the client and server; what if we blurred the line between server and client components, enabling the writing of server code within client components as well?
 
-Here we go, [@tanstack/bling](https://github.com/TanStack/bling) powered by Vite transpilation. It enables writing server code within a client hook or even integrating it into a component, which is then extracted automatically into a separate server API endpoint.
+Here we go, [@tanstack/bling](https://github.com/TanStack/bling) powered by Vite transpilation. It enables writing server code within a client hook or even integrating it into a client component, which is then extracted automatically into a separate server API endpoint.
 
 It's worth comparing this approach with tRPC, as the main benefit of both approaches is nearly the same – rapid bootstrapping with first-class TypeScript support shared across the client and server.
 The advantage here is that it requires much less boilerplate and setup compared to tRPC,
