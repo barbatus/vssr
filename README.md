@@ -18,7 +18,7 @@ npm run serve
 
 ## Isomorphic Environment
 Server-side rendering has become increasingly popular in the React world, especially with the introduction of Server Components in React.
-While Server Components are beneficial and can significantly improve vital rendering metrics, while allowing to access purely server-side code, such as accessing a database, within components. JavaScript can run on both the client and server; what if we blurred the line between server and client components, enabling the writing of server code within client components as well?
+Server Components are beneficial and can significantly improve vital rendering metrics due to their direct access to purely server-side code, such as accessing a database, within components. JavaScript can run on both the client and server; what if we blurred the line between server and client components, enabling the writing of server code within client components as well?
 
 Here we go, [@tanstack/bling](https://github.com/TanStack/bling) powered by Vite transpilation. It enables writing server code within a client hook or even integrating it into a client component, which is then extracted automatically into a separate server API endpoint.
 
