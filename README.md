@@ -17,10 +17,10 @@ npm run serve
 
 
 ## Isomorphic Environment
-Server-side rendering has become increasingly popular in the React world, especially with the introduction of Server Components in React.
-Server Components are beneficial and can significantly improve vital rendering metrics due to their direct access to purely server-side code, such as accessing a database, within components. JavaScript can run on both the client and server; what if we blurred the line between server and client components, enabling the writing of server code within client components as well?
+[@tanstack/bling](https://github.com/TanStack/bling) makes it possible to run purely server code in client React hooks or components via Vite transpilation hooks. Hence, one can write server code not only in Server Components but also in Client ones,
+which is then extracted automatically into a separate server API endpoint.
 
-Here we go, [@tanstack/bling](https://github.com/TanStack/bling) powered by Vite transpilation. It enables writing server code within a client hook or even integrating it into a client component, which is then extracted automatically into a separate server API endpoint.
+This NPM provides a boilerplate to get started with @tanstack/bling as it still requires some patching.
 
 It's worth comparing this approach with tRPC, as the main benefit of both approaches is nearly the same – rapid API bootstrapping with first-class TypeScript support shared across the client and server.
 The advantage here is that it requires much less boilerplate and setup compared to tRPC,
