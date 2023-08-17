@@ -18,7 +18,7 @@ npm run serve
 
 ## Isomorphic Environment
 [@tanstack/bling](https://github.com/TanStack/bling) makes it possible to run purely server code in client React hooks or components via Vite transpilation hooks. Hence, one can write server code not only in Server Components but also in Client ones,
-which is then extracted automatically into a separate server API endpoints.
+which is then extracted automatically into separate server API endpoints.
 
 This NPM provides a boilerplate to get started with @tanstack/bling as it still requires some patching.
 
