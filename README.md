@@ -23,7 +23,7 @@ which is then extracted automatically into separate server API endpoints.
 This NPM provides a boilerplate to get started with @tanstack/bling as it still requires some patching.
 
 It's worth comparing this approach with tRPC, as the main benefit of both approaches is nearly the same – rapid API bootstrapping with first-class TypeScript support shared across the client and server.
-The advantage here is that it requires much less boilerplate and setup compared to tRPC,
+The advantage here is that @tanstack/bling requires much less boilerplate and setup compared to tRPC,
 while the disadvantage is that tRPC is currently more mature.
 
 Check out an example project [Botpress](https://github.com/barbatus/assess/blob/main/botpress-bling).
